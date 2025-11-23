@@ -1,0 +1,40 @@
+# Python / common
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pytest_cache/
+
+# Virtual environments, env files
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Git
+.git/
+.gitignore
+
+# Docker / build artifacts
+Dockerfile.dev
+docker-compose.override.yml
+*.tar
+*.zip
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Other
+node_modules/
+dist/
+build/
